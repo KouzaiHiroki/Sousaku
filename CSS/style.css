@@ -83,18 +83,6 @@ header {
 }
 
 .sectitle {
-  margin-bottom: 180px;
-  display: flex;
-  flex-direction: row-reverse;  
-}
-
-.sectitle {
-  font-weight: normal;
-  line-height: 1;
-  writing-mode: vertical-rl;
-}
-
-.sectitle {
   font-weight: normal;
   line-height: 1;
   writing-mode: vertical-rl;
