@@ -93,13 +93,13 @@ header nav li {
     -webkit-writing-mode: vertical-rl;
 }
 
-#news .sectitle .en {
+#news .titleen {
     display: block;
     font-size: 0.875rem;
     margin-left: 15px;
 }
 
-#news .sectitle .ja {
+#news .titleja {
     display: block;
     font-size: 2.25rem;
     letter-spacing: 0.1em;
@@ -135,13 +135,13 @@ header nav li {
     line-height: 1;
 }
 
-.products .sectitle .ja {
+.products .titleja {
     font-size: 2rem;
     letter-spacing: 0.1em;
     margin-bottom: 18px;
 }
 
-.products .sectitle .en {
+.products .titleen {
     font-size: 0.875rem;
 }
 
