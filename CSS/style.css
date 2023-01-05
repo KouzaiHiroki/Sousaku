@@ -75,3 +75,102 @@ header {
 .onlinestore a:hover {
     opacity: 0.7;
 }
+
+header nav li {
+    margin-left: 25px;
+}
+
+#news {
+    margin-bottom: 180px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#news .sectitle {
+    font-weight: normal;
+    line-height: 1;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+}
+
+#news .sectitle .en {
+    display: block;
+    font-size: 0.875rem;
+    margin-left: 15px;
+}
+
+#news .sectitle .ja {
+    display: block;
+    font-size: 2.25rem;
+    letter-spacing: 0.1em;
+}
+
+#news .list {
+    padding: 80px 100px 0 0;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+}
+
+#news .list dt {
+    border-right: solid 1px #000;
+    font-size: 0.75rem;
+    padding: 15px 30px 15px 5px;
+}
+
+#news .list dd {
+    padding: 15px 0 15px 30px;
+}
+
+#news .list dd:last-child {
+    border-left: solid 1px #000;
+}
+
+.products {
+    display: flex;
+    margin-bottom: 180px;
+}
+
+.products .sectitle {
+    font-weight: normal;
+    line-height: 1;
+}
+
+.products .sectitle .ja {
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 18px;
+}
+
+.products .sectitle .en {
+    font-size: 0.875rem;
+}
+
+.products .img {
+    width: 65%;
+    margin-top: 100px;
+    position: relative;
+}
+
+.products .text {
+    width: 56%;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    position: absolute;
+    bottom: -20px;
+}
+
+#products1 {
+    flex-direction: row-reverse;
+}
+
+#products1 .sectitle {
+    margin-left: 20px;
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+}
+
+#products1 .text {
+    background: rgba(249, 233, 6, 0.6);
+    left: -20px;
+}
