@@ -145,13 +145,13 @@ header nav li {
     font-size: 0.875rem;
 }
 
-.products .img {
+.productimg {
     width: 65%;
     margin-top: 100px;
     position: relative;
 }
 
-.products .text {
+.producttext {
     width: 56%;
     color: #fff;
     padding: 50px 0;
