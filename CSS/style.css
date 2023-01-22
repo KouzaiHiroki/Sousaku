@@ -58,7 +58,7 @@ li {
     -webkit-writing-mode: vertical-rl;
 }
 
-.onlinestore {
+#header .onlinestore {
     background: rgba(255,255,255,0.2);
     padding: 8px;
     position: absolute;
