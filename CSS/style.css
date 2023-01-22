@@ -54,8 +54,6 @@ header {
     padding: 60px 80px;
     margin-bottom: 180px;
     position: relative;
-    writing-mode: vertical-rl;
-    -webkit-writing-mode: vertical-rl;
 }
 
 header .onlinestore {
